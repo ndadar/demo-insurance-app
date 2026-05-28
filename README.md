@@ -4,6 +4,15 @@ An interactive, single-file customer dashboard mockup for **InsureCo**. This app
 
 ---
 
+## 🌐 Live Environment
+
+You can access and interact with the deployed version of this demo app instantly here:
+👉 **[Live Demo URL](https://effervescent-cajeta-47012e.netlify.app/)**
+
+*Note: This environment runs entirely on the client-side, meaning any actions you take (like filling out forms or adding cards) will interact seamlessly in real-time but will reset back to default upon a page refresh.*
+
+---
+
 ## 🚀 Key Features
 
 - **My Policies View:** View active coverage plans, premium summaries, covered vehicles (Tesla Model 3, Toyota RAV4), and agent details.
@@ -11,6 +20,18 @@ An interactive, single-file customer dashboard mockup for **InsureCo**. This app
 - **Billing Management:** Interactive dashboard featuring real-time state changes for Autopay toggling, simulated quick card additions, and step-by-step checkout modals.
 - **Document Hub:** Categorized file viewer featuring instant client-side search functionality and mock downloads.
 - **Embedded Support Agent Chat:** Simulated live-chat widget with automated smart replies based on user selections.
+
+---
+
+## 🍴 Customization & Forking
+
+This portal was designed to be highly extensible. If you want to use it as a sandbox or build your own tailored feature variants, feel free to customize it:
+
+1. Click the **Fork** button in the top right corner of this page to generate an isolated copy under your own GitHub account.
+2. Clone your forked repository down to your computer.
+3. Open `index.html` in your favorite IDE (like VS Code).
+4. Locate the `const POLICY` or `const BILLING` JavaScript objects near the top of the script block to manipulate user names, vehicle types, or premium costs instantly.
+5. Deploy your customized version back to Netlify or GitHub Pages as you see fit!
 
 ---
 
@@ -41,6 +62,8 @@ This application is structurally engineered with hardcoded semantic hooks to mak
 ---
 
 ## 💻 Local Quickstart
+
+If you don't want to use the public live link and prefer working locally instead:
 
 ### Option 1: Double-Click (Simplest)
 1. Clone or download this repository onto your workstation.
